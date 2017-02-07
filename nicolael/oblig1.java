@@ -269,7 +269,7 @@ class Tree{
 			input.close();
 		}catch(FileNotFoundException fne){
 		
-			System.out.println("dictionary.txt was not found, please locate the file")
+			System.out.println("dictionary.txt was not found, please locate the file");
 		
 		}catch(Exception ex){
 			ex.printStackTrace();
